@@ -29,5 +29,5 @@ select * from produtos where tipo = "legume";
 
 update produtos set nome = "abacate", preco = 5.60 where id=2;
 
+set sql_safe_updates = 0;
 delete from produtos where tipo = "verdura";
-
